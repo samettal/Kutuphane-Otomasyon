@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<form xmlns="http://www.intellij.com/uidesigner/form/" version="1" bind-to-class="AdminKitaplarSayfasi">
+  <grid id="27dc6" binding="kitaplariGoruntulePanel" layout-manager="GridLayoutManager" row-count="2" column-count="3" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
+    <margin top="5" left="5" bottom="5" right="5"/>
+    <constraints>
+      <xy x="20" y="20" width="715" height="472"/>
+    </constraints>
+    <properties>
+      <background color="-8615"/>
+    </properties>
+    <border type="none"/>
+    <children>
+      <scrollpane id="a44c1">
+        <constraints>
+          <grid row="0" column="0" row-span="1" col-span="3" vsize-policy="7" hsize-policy="7" anchor="0" fill="3" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <background color="-8615"/>
+        </properties>
+        <border type="none"/>
+        <children>
+          <component id="8c29a" class="javax.swing.JTable" binding="kitaplarTablosu">
+            <constraints/>
+            <properties/>
+          </component>
+        </children>
+      </scrollpane>
+      <component id="98fc7" class="javax.swing.JButton" binding="kitapSilButon">
+        <constraints>
+          <grid row="1" column="2" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="4" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <background color="-8615"/>
+          <text value="Kitap Sil"/>
+        </properties>
+      </component>
+      <component id="21b1f" class="javax.swing.JButton" binding="kitapGuncelleButon">
+        <constraints>
+          <grid row="1" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <background color="-8615"/>
+          <text value="Bir Kitabı Güncelle"/>
+        </properties>
+      </component>
+      <component id="528db" class="javax.swing.JButton" binding="kitapEkleButon">
+        <constraints>
+          <grid row="1" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <background color="-8615"/>
+          <text value="Yeni Bir Kitap Ekle"/>
+        </properties>
+      </component>
+    </children>
+  </grid>
+</form>
